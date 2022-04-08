@@ -1,0 +1,7 @@
+Steps to deploy the bot in Azure:
+1. Upload the source code to GitHub
+2. Create a web app in Azure under the same Service Plan with latest Node (16) LTS running Linux.
+3. Configure the deployment settings from the env file
+4. From deployment center, point the app to the GitHub repo
+5. Create the integration in Workplace pointing the webhook to the Azure web app address
+6. After validating in a test instance, repeat Workplace steps and move the bot to the future of work instance.

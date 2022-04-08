@@ -1,0 +1,2 @@
+NGROK: ~/Documents/services/ngrok http 1337
+DEBUG: npm run dev

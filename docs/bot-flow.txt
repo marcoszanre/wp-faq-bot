@@ -1,0 +1,11 @@
+FAQ-Bot flow:
+1. Any action will trigger an image with a text sharing what the bot can do.
+2. When user asks a question, the bot will answer with its Knowledge Base.
+3. Bot asks if there’s anything else the user needs help with, and provides two buttons, ask an expert or share feedback.
+4. The user selects the ask an expert.
+5. The bot will ask the user for more information
+6. The bot will receive this data and reply that it will be sent to a group of experts
+7. The bot will create a group chat with a set of experts and provide the context of the message
+8. As the expert replies mentioning the bot, the message will be sent to the user
+9. As the user replies to the bot, the message will be sent to the group chat
+10. Once the conversation is marked as completed by the experts, the bot will notify the user and finish the conversation with a message asking for their feedback.

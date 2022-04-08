@@ -1,0 +1,18 @@
+module.exports = chatAnswers = {
+    BEFORE_EXPERT: "All right, could you please provide me with more info before I connect you to an expert?",
+    ANSWER_OK: "Excelent, appreciate it!",
+    THANKS_MESSAGE_1: "Thanks for your feedback.",
+    THANKS_MESSAGE_2: "Thanks for using our service.",
+    RESTART_DEMO: "Sorry, no thread found. Please restart the demo.",
+    CHAT_FINISHED_USER: "Chat finished by the user.",
+    CHAT_FINISHED_EXPERT: "This conversation was finished by the expert.",
+    CHAT_FINISHED: "Finished conversation.",
+    DEFAULT_HANDLER: "Sorry, not implemented yet.",
+    PROACTIVE_FROM_THREAD: "Message sent to user.",
+    PROACTIVE_FROM_USER: "Message sent to expert.",
+    DEFAULT_STATE_HANDLER: "Conversation state not implemented",
+    DEFAULT_ANSWER: "*What are our plans for RTO?*\n\nAs part of our plans for RTO, we are going to allow every employee to book their desk and report on the day they'll be working at the office. This will help us plan for capacity whereas making sure everyone's safety is prioritized. Please feel free to let us know if you need any additional information.",
+    DEFAULT_WAIT: "One moment please...",
+    FINISH_CONVERSATION: "Thanks, I'll finish this conversation.",
+    DEFAULT_NOT_MENTIONED: "Bot wasn't mentioned.",
+}
