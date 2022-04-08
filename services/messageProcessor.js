@@ -283,7 +283,7 @@ const processGroupMessage = async (body) => {
                     await sendGroupAttachmentMessage(thread_key, exitRequestGroup);
 
                     // Update Conversation State
-                    await setConversationState(recipient, chatStates.EXPERT_CONNECTED);
+                    await setConversationState(userChat, chatStates.EXPERT_CONNECTED);
                 }
             }
         }
